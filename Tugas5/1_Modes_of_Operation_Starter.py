@@ -1,6 +1,4 @@
-import string
 import requests
-import json
 
 # request encrypted flag
 r = requests.get('http://aes.cryptohack.org/block_cipher_starter/encrypt_flag/')

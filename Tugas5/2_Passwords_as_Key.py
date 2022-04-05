@@ -1,9 +1,5 @@
-import code
 import requests
-import json
-import random
 import hashlib
-import os
 import sys
 
 # request encrypted flag
@@ -12,7 +8,7 @@ r.encoding
 res = (r.text[15:79])
 # print(res)
 
-# brute forcing the key to find the plaintext, unfortunately not yet finish :(
+# brute forcing the key to find the plaintext, unfortunately not yet finished, i still dont know the flag :(
 with open('Tugas5/words', 'r') as f:
     for words in f:
         words = words.strip()
