@@ -2,15 +2,13 @@ import requests
 
 # request encrypted flag
 r = requests.get('http://aes.cryptohack.org/block_cipher_starter/encrypt_flag/')
-r.encoding
-res = (r.text[15:79])
+res = r.json()['ciphertext']
 # print(res)
 
 # request plaintext/decrypting flag
 endpointdec = 'http://aes.cryptohack.org/block_cipher_starter/decrypt/' + res
 dec = requests.get(endpointdec)
-dec.encoding
-res1 = (dec.text[14:78])
+res1 = dec.json()['plaintext']
 # print(res1)
 
 by = bytes.fromhex(res1)
