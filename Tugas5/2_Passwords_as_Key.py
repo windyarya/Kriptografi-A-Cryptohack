@@ -1,4 +1,3 @@
-from pyparsing import Word
 import requests
 import hashlib
 from Crypto.Cipher import AES

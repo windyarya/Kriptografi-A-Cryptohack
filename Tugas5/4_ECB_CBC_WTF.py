@@ -1,5 +1,4 @@
 import requests
-import json
 from Crypto.Util.number import long_to_bytes
 
 URL = "http://aes.cryptohack.org/ecbcbcwtf/"
