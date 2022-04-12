@@ -8,3 +8,4 @@ Course List:
 - Modular Arithmetic: [General Mathematics](/Tugas3/)
 - Symmetric Cryptography: [How AES Works](/Tugas4/)
 - Symmetric Cryptography: [Symmetric Starter & Block Cipher](/Tugas5/)
+- Symmetric Cryptography: [Block Cipher & Stream Cipher](/Tugas6/)
