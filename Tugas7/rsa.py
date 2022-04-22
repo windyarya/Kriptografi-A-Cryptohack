@@ -1,4 +1,3 @@
-from pydoc import plain
 import random
 
 def isPrime(a):
