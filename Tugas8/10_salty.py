@@ -1,0 +1,6 @@
+ct = 44981230718212183604274785925793145442655465025264554046028251311164494127485
+hexed_ct = hex(ct)
+
+flag = bytearray.fromhex(hexed_ct[2:]).decode()
+
+print(flag)
